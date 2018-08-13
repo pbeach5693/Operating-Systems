@@ -1,0 +1,9 @@
+There are two source codes for Assignment 3
+
+part a) Homework3Version2NoMutualExclusion.c
+   compile: gcc -pthread -o Homework3Versoin2NoMutualExclusion Homework3Versoin2NoMutualExclusion.c 
+    This program will give an incorrect total.  Putting a sleep on the program makes the total closer to 1000, but still often returns an incorrect value.
+
+part b) Homework3Version2.c
+    compile: gcc -pthread -o Homework3Versoin2NoMutualExclusion Homework3Versoin2NoMutualExclusion.c 
+    This program will give the correct total regardless of the sleep put on it.  It has a critical section with semaphores that guarentee that only one process can write at a time.

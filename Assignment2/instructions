@@ -1,0 +1,78 @@
+Instructions
+
+Homework 2 program is named lab2.c
+
+execute ./lab2
+
+Enter the following commands
+
+
+$ ls 
+
+$ ls -t -al
+
+$ ls > output.txt
+
+And then open output.txt to see if the content is correct or not
+
+$ ./pre < input.txt
+
+./pre is the executable in hw1.
+
+$ ls | more | wc
+
+
+$ quit or exit (some students may use 'quit', some students may use 'exit')
+
+
+
+
+
+The following results on my machine are:
+
+shhh> ls
+input.txt  instructions  lab2  lab2.c  output.txt  pre	pre.c  sort  sort.c
+
+shhh> ls -t -al
+total 152
+-rwxr-xr-x 1 patrick patrick 12984 Jul 31 20:53 lab2
+drwxrwxr-x 2 patrick patrick  4096 Jul 31 20:53 .
+-rw-r--r-- 1 patrick patrick  6186 Jul 31 20:53 lab2.c
+-rw------- 1 patrick patrick    68 Jul 31 20:51 output.txt
+-rwxr-xr-x 1 patrick patrick  8392 Jul 31 20:51 pre
+-rwxr-xr-x 1 patrick patrick 12528 Jul 31 20:51 sort
+-rw-rw-r-- 1 patrick patrick   399 Jul 31 20:50 instructions
+drwxrwxr-x 6 patrick patrick  4096 Jul 31 20:48 ..
+-rw-rw-r-- 1 patrick patrick    40 Jul 31 20:48 input.txt
+-rw-r--r-- 1 patrick patrick  1196 Jul 19 22:05 pre.c
+-rw-r--r-- 1 patrick patrick  1390 Jul 19 22:03 sort.c
+
+shhh> ls > output.txt
+
+shhh> cat output.txt
+input.txt
+instructions
+lab2
+lab2.c
+output.txt
+pre
+pre.c
+sort
+sort.c
+
+shhh> ./pre < input.txt
+jake
+kaylie
+Ben
+
+shhh> ls | more | wc
+      9       9      68
+
+shhh> exit
+
+
+------------------
+(program exited with code: 0)
+Press return to continue
+
+
